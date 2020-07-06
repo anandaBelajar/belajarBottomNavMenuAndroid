@@ -1,0 +1,20 @@
+belajar bottom navabr android 
+
+pada project kali ini kitakan membuat bottomNav yang memiliki tiga item home, favorite, dan search, saat kita memilih salah satu item kita aan berpindah fragment
+
+file reference github/anandaBelajar/belajarBottomNavMenu
+video reference Bottom navigation View with fragments channe coding in flow
+
+1. edit gradle file tambahkan dependencies implementation 'com.android.support:design:27.0.2' contoh github/anandaBelajar/belajarBottomNavMenu/build.gradle (Module App)
+2. tambahkan icon untuk bottom menu, caranya klik kanan pada drawable, pilih new vector assets
+3. tambahkan resource directory untuk menu, klik kanan pada folder res, pilih new, pilih resource directory ubah namanya menjadi menu, piih type menu
+4. tambahkan resource file pada folder menu yang abru dibuat, klik kanan pada folder menu yang abru dibuat, pilih new menu resource file, beri anama bottom_menu
+5.edit bottom_menu.xml tersebut contohnya di github/anandaBelajar/bottom_menu.xml
+6.edit file activity_main.xml contohnya github/anandaBelajar/activity_main.xml
+7. tambahkan layout untuk fragment home, edit file tersebut contohnya github/anandaBelajar/fragment_home.xml
+8. tambahkan layout untuk fragment favorite, edit file tersebut contohnya github/anandaBelajar/fragment_favorite.xml
+9. tambahkan layout untuk fragment search, edit file tersebut contohnya github/anandaBelajar/fragment_search.xml
+10 buat java class untuk fragment home lalu edit contohnya  github/anandaBelajar/HomeFragment.java
+11 buat java class untuk fragment favorite lalu editcontohnya  github/anandaBelajar/FavoriteFragment.java
+12 buat java class untuk fragment search lalu edit contohnya  github/anandaBelajar/SearchFragment.java
+13 edit Main_Activity.java contohnya github/anandaBelajar/Main_Activity.java
